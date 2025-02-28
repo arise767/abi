@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+.intro {
+    background-image: url(PIC.jpeg);
+    background-size: cover;
+    background-size: center;
+    height: 100vh;
+}
+
+h2 {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.head {
+    text-align: center;
+    padding-top: 400px;
+}
+
+.Body {
+    background-color: rgb(47, 79, 79);
+    /* color: aliceblue; */
+    padding-left: 300px;
+}
+
+.two {
+    text-align: center;
+    background-color: rgb(23, 245, 71);
+}
+
+div {
+    padding: 10px;
+}
+
+.one {
+    padding: 10px;
+    color: rgb(6, 7, 7);
+    text-align: center;
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+
+}
+
+a:hover {
+    color: rgb(222, 235, 43);
+    letter-spacing: 1px;
+    transition-duration: 0.5s;
+}
+
+.one {
+    font-family: serif;
+    letter-spacing: 2px;
+
+}
+
+.Body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
